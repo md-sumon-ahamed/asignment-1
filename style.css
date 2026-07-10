@@ -107,3 +107,58 @@ h6 {
   opacity: 0.9;
   text-align: center;
 }
+
+/* --------------- speaker section -------------- */
+
+.speaker-wrapper {
+  width: 100%;
+  padding: 95px 0;
+}
+
+.speaker-title {
+  font-size: 56px;
+  color: #000102;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+  flex-wrap: wrap;
+}
+
+.col-2 {
+  flex-basis: 48.5%;
+  border: 1px solid #e5e7eb;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.speaker-media img {
+  width: 100%;
+}
+
+.speaker-container {
+  padding: 30px;
+}
+
+.speaker-container span {
+  font-size: 12px;
+  color: #2563eb;
+  font-weight: 500;
+}
+
+.speaker-container h3 {
+  font-size: 20px;
+  color: #0d1b2a;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.speaker-container p {
+  font-size: 14px;
+  color: #575757;
+}
