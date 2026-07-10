@@ -67,3 +67,43 @@ h6 {
   color: #000;
   font-weight: 400;
 }
+
+/* -------------------- hero section ----------------- */
+
+.hero-container {
+  height: calc(100vh - 120px);
+  width: 100%;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+    url("assets/images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-wrapper {
+  max-width: 830px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 150px 0 80px 0;
+}
+
+.title {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.description {
+  font-size: 22px;
+  line-height: 30px;
+  color: #fff;
+  opacity: 0.9;
+  text-align: center;
+}
