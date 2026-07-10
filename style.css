@@ -22,11 +22,16 @@ h2,
 h3,
 h4,
 h5,
-h6,
-a {
+h6 {
   font-family: "Sansation", sans-serif;
   font-weight: 600;
   font-style: normal;
+}
+
+.container {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 /* ------------------ button css ------------------ */
@@ -37,4 +42,28 @@ a {
   color: #fff;
   border-radius: 10px;
   padding: 12px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* -------------- header section ------------------ */
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 36px 0;
+}
+
+.nav ul li {
+  list-style: none;
+  padding: 0 12px;
+  display: inline-block;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
 }
