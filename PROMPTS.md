@@ -4,7 +4,7 @@ You are a professional web designer. Currently, I'm designing a landing page for
 
 - add a dev class="testimonial-wrapper" and add padding-bottom to this class
 
-- add a section heading and short details. heading tag <h2> , heading font size 44px and color: "#0D1B2A" also add a <p> tag for details.
+- add a section heading and short details. heading tag h2 , heading font size 44px and color: "#0D1B2A" also add a p tag for details.
 
 - In the testimonial section, add 04 cards; the parent div should be in display: flex
 
