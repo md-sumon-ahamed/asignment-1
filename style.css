@@ -249,10 +249,33 @@ h6 {
   text-decoration: none;
 }
 
+.col-3.active {
+  background-color: #0d1b2a;
+  border: 1px solid #0d1b2a;
+}
+
 .col-3:hover {
   background-color: #0d1b2a;
   border: 1px solid #0d1b2a;
   transition: all linear 0.3s;
+}
+
+.col-3.active h4 {
+  color: #93c5fd;
+}
+
+.col-3.active .price {
+  color: #ffffff;
+}
+
+.col-3.active ul li {
+  color: #fff;
+  opacity: 0.8;
+}
+
+.col-3.active a {
+  background-color: #2563eb;
+  color: #fff;
 }
 
 .col-3:hover h4 {
